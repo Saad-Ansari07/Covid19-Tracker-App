@@ -4,16 +4,6 @@
   align-items: center;
   margin: 50px 0;
 }
-
-.dead {
-  width: 8px;
-}
-.infect {
-  width: 8px;
-}
-.recover {
-  width: 8px;
-}
 .card {
   margin: 0 2% !important;
 }

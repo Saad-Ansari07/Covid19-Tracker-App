@@ -2,9 +2,7 @@ import React from 'react';
 import { Card, CardContent, Typography, Grid } from '@material-ui/core';
 import CountUp from 'react-countup';
 import cx from 'classnames';
-import dead from './dead.png';
-import infect from './infect.png';
-import recover from './recover.png';
+
 
 import styles from './Cards.module.css';
 
@@ -31,7 +29,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography variant="body2" component="p">
               Number of active cases of COVID-19.
             </Typography>
-              <img className={styles.infect} src={infect} alt="Infected Person" />
+          
           </CardContent>
         </Grid>
         <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.recovered)}>
@@ -48,7 +46,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography variant="body2" component="p">
               Number of recoveries from COVID-19.
             </Typography>
-            <img className={styles.recover} src={recover} alt="Recovered Person" />
+        
           </CardContent>
         </Grid>
         <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.deaths)}>
@@ -65,7 +63,6 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography variant="body2" component="p">
               Number of deaths caused by COVID-19.
             </Typography>
-          <img className={styles.deaddd} src={dead} alt="Dead Person" />
           </CardContent>
         </Grid>
       </Grid>

@@ -5,6 +5,15 @@
   margin: 50px 0;
 }
 
+.dead {
+  width: 50px;
+}
+.infect {
+  width: 50px;
+}
+.recover {
+  width: 50px;
+}
 .card {
   margin: 0 2% !important;
 }

@@ -31,7 +31,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography variant="body2" component="p">
               Number of active cases of COVID-19.
             </Typography>
-              <img src={infect} alt="Infected Person" />
+              <img className={styles.infect} src={infect} alt="Infected Person" />
           </CardContent>
         </Grid>
         <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.recovered)}>
@@ -48,7 +48,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography variant="body2" component="p">
               Number of recoveries from COVID-19.
             </Typography>
-            <img src={recover} alt="Recovered Person" />
+            <img className={styles.recover} src={recover} alt="Recovered Person" />
           </CardContent>
         </Grid>
         <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.deaths)}>
@@ -65,7 +65,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography variant="body2" component="p">
               Number of deaths caused by COVID-19.
             </Typography>
-          <img src={dead} alt="Dead Person" />
+          <img className={styles.deaddd} src={dead} alt="Dead Person" />
           </CardContent>
         </Grid>
       </Grid>

@@ -6,13 +6,13 @@
 }
 
 .dead {
-  width: 50px;
+  width: 8px;
 }
 .infect {
-  width: 50px;
+  width: 8px;
 }
 .recover {
-  width: 50px;
+  width: 8px;
 }
 .card {
   margin: 0 2% !important;
